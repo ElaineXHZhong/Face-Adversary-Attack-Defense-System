@@ -1,0 +1,16 @@
+{
+  "name": "astri-adv-detector",
+  "version": "1.0.0",
+  "description": "",
+  "main": "windows.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "url": "^0.11.0"
+  }
+}
