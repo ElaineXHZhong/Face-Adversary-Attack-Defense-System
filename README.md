@@ -47,7 +47,7 @@ As we use VGG-Face caffe model to detect adversary, so we need to compile caffe 
 | Environment | Purpose |
 |----------|--------|
 | Visual Studio 2015 + Anaconda env(python 3.5) + CUDA 8.0 + cuDNN 5 | Compile caffe for detecting adversary |
-| Visual Studio 2015 + Anaconda env(python 3.6) + tensorflow-gpu 1.7.0 + CUDA 9.0 + cuDNN 7.0.5 | For runing face recognition (using gpu) and fgsm attack |
+| Visual Studio 2015 + Anaconda env(python 3.6) + tensorflow-gpu 1.7.0 + CUDA 9.0 + cuDNN 7.0.5 | For runing face verfication (using gpu) and fgsm attack |
 | Visual Studio 2015 + Anaconda env(python 3.5) + tensorflow-gpu 1.7.0 + CUDA 9.0 + cuDNN 7.0.5 | For runing detection part (using gpu) |
 | Visual Studio 2015 + Anaconda env(python 3.5) + tensorflow 1.7.0 + CUDA 9.0 + cuDNN 7.0.5 | For runing detection part (using cpu) |
 
@@ -69,7 +69,7 @@ $vidia-smi.exe -l 1 # update GPU information every second
 
 ### Create conda environment
 
-#### for facenet recogniton & fgsm attack
+#### for facenet verification & fgsm attack
 ```bash
 $conda create -n attack python=3.6
 $conda activate attack
