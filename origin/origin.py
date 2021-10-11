@@ -42,7 +42,7 @@ import set_loader
 import warnings
 
 warnings.filterwarnings('ignore')
-os.system('conda activate astri')
+os.system('conda activate faad')
 
 
 class ImageClass():
